@@ -1,0 +1,19 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  width: 279px;
+  height: 66px;
+  background-color: #904141;
+  color: white;
+  font-size: 29px;
+  font-family: $bbook;
+  span {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  &:hover {
+    background-color: #832d2d;
+  }
+}

@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>project</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="fonts/fonts.css">  
 	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
 	<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="owl-carousel/owl.theme.css">
@@ -21,12 +22,170 @@
 </head>
 <body>
 
-	<header>
-		<div class="wrapper">
-
+	<header class="main-page">
+		<div class="wrapper top-line justify-c">
+			<a href="/" class="logo"><img src="img/logo.png" alt="" width="197" height="94"></a>
+			<div class="top-right">
+				<ul class="menu">
+					<li><a href="#">Главная</a></li>
+					<li><a href="#">Портфолио</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Блог</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Цены</a></li>
+				</ul>
+				<form class="form-header" method="post" id="feedback-valid-1" action="sendmail.php">
+					<input type="search" name="text-search">  
+					<button type="submit" class="icon-search"></button>
+				</form>
+			</div>
+		</div>
+		<div class="wrapper text-l">
+			<div class="left-side">
+				<h6>Запечатли</h6>
+				<h2>ЛЮБОВЬ<br><span>НА ВЕЧНУЮ</span><br>ПАМЯТЬ</h2>
+				<a href="#call" class="btn modal-form"><span>ЗАКАЗАТЬ СЪЁМКУ</span></a>
+			</div>
 		</div>
 	</header>
 
+	<div class="wrapper thumb-gallery">
+		<div class="tabs-main">
+			<ul class="tabs-caption">
+				<li>Все виды съёмок</li>
+				<li class="active">СВАДЕБНАЯ СЪЁМКА</li>
+				<li>СЪЁМКА LOVE STORY</li>
+			</ul>
+
+			<div class="tabs-content clearfix">
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+			</div>
+
+			<div class="tabs-content active clearfix">
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+			</div>
+
+			<div class="tabs-content clearfix">
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+				<div class="w-25"><a href="#"><img src="img/photo-1.jpg" alt="" width="283" height="209"><span>Ольга и Андрей</span></a></div>
+			</div>
+		</div> <!-- tabs -->	
+		<a href="#" class="btn"><span>СМОТРЕТЬ ВСЕ ФОТО</span></a>
+	</div>
+
+	<div class="section-about">
+		<div class="wrapper">
+			<div class="title white">НЕМНОГО ОБО МНЕ</div>
+			<div class="wrapp-about clearfix">
+				<img src="img/about.jpg" alt="" class="left-img" width="287" height="287">
+				<p>
+					Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях, а начинающему оратору отточить навык публичных выступлений в домашних условиях. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях, а начинащему оратору. 
+				</p>
+			</div>
+			<div class="center">
+				<a href="#" class="btn"><span>ПОРТФОЛИО</span></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="section-posts">
+		<div class="wrapper">
+			<div class="title">ПОСЛЕДНИЕ ПОСТЫ</div>
+			<div class="wrapp-posts justify-c">
+				<div class="post-item">
+					<img src="img/main-post-img.jpg" alt="">
+					<div class="border-post">
+						<img src="img/logo-post.png" alt="" class="logo-post" width="36" height="36">
+						<div class="text-post">
+							<div class="n-post">Название данного поста</div>
+							<div class="d-post">26.09.2015</div>
+							<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать...</p>
+							<a href="#">Читать далее</a>
+						</div>
+					</div>
+				</div>
+				<div class="post-item">
+					<img src="img/main-post-img.jpg" alt="">
+					<div class="border-post">
+						<img src="img/logo-post.png" alt="" class="logo-post" width="36" height="36">
+						<div class="text-post">
+							<div class="n-post">Название данного поста</div>
+							<div class="d-post">26.09.2015</div>
+							<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать...</p>
+							<a href="#">Читать далее</a>
+						</div>
+					</div>
+				</div>
+				<div class="post-item">
+					<img src="img/main-post-img.jpg" alt="">
+					<div class="border-post">
+						<img src="img/logo-post.png" alt="" class="logo-post" width="36" height="36">
+						<div class="text-post">
+							<div class="n-post">Название данного поста</div>
+							<div class="d-post">26.09.2015</div>
+							<p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать...</p>
+							<a href="#">Читать далее</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="center">
+				<a href="#" class="btn"><span>ПОКАЗАТЬ ДРУГИЕ ПОСТЫ</span></a>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="wrapper">
+			<div class="wrapp-footer clearfix">
+				<div class="w-33">
+					<div class="text-nrm">Я в социальных сетях:</div>
+					<ul class="social">
+						<li><a href="#" class="icon-inst"></a></li>
+						<li><a href="#" class="icon-vk"></a></li>
+						<li><a href="#" class="icon-yt"></a></li>
+					</ul>
+				</div>
+				<div class="w-33">
+					<img src="img/footer-logo.png" alt="" class="logo-foot" width="251" height="119">
+				</div>
+				<div class="w-33">
+					<div class="contact-footer">
+						<div class="icon-phone">+7 (495) 754 67 54 <br><a href="#" class="link">Заказать звонок</a></div>
+						<div class="icon-mail">alexsmelov@ya.ru</div>
+						<div class="icon-place">Россия, г. Москва</div>
+					</div>
+				</div>
+			</div>
+			<div class="site">
+				Все права защищены и охраняются законом. Находясь на сайте, Вы соглашаетесь с пользовтельским соглашением. Александр Смелов 2016.
+			</div>
+		</div>
+	</footer>
+
+	<div id="call" class="hide form-popup">
+		<form class="" method="post" id="feedback-valid-2" action="sendmail.php">
+			<h3>Заявка на обратный звонок</h3>
+			<input type="text" name="name" placeholder="Ваше имя">  
+			<input type="tel" name="phone" placeholder="Ваш телефон"> 
+			<input type="email" name="email" placeholder="Ваш e-mail"> 
+			<button type="submit" class="btn">Отправить заявку</button>
+		</form>
+	</div>
+
+	<div class="modal hide">
+		<h3>Ваша заявка принята</h3>
+		<p>Я свяжусь с Вами в ближайшее время, спасибо!</p>
+	</div>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -40,7 +199,7 @@
 	<script src="js/main.js"></script>
 
 <!-- <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-	<script src="js/yandex.js"></script>    YANDEX MAP-->
+	<script src="js/yandex.js"></script>   	YANDEX MAP-->
 
 <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&sensor=true"></script>
 	<script src="js/map_google.js"></script> GOOGLE MAP-->
