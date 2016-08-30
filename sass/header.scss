@@ -6,6 +6,9 @@ header {
     background-size: cover;
     min-height: 964px;
     padding-bottom: 0;
+    &.portfolio {
+      background: url(../img/portfolio.jpg) center top no-repeat;
+    }
     .top-line {
       margin-bottom: 230px;
       .menu {

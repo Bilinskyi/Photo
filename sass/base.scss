@@ -19,7 +19,7 @@
 body {
   position: relative; 
   color: #fff;
-  font-family: 'latoRegular';
+  font-family: $basilr;
   min-width: 1200px;
 }
 
@@ -28,6 +28,12 @@ ul {
   li {
     list-style-type: none;
   }
+}
+
+.center-y {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .justify-c {
@@ -46,6 +52,7 @@ ul {
 .wrapper {
   width: 1230px;
   margin: 0 auto;
+  padding: 0 15px;
   position: relative;
   font-family: $basilr;
 }
